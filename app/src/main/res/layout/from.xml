@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frompage">
+
+    <TextView
+        android:id="@+id/textViewJenisPendaftaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="FROM PENDAFTARAN"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <!-- EditText untuk Nama Mahasiswa -->
+    <EditText
+        android:id="@+id/editTextNamaMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewJenisPendaftaran"
+        android:layout_marginTop="16dp"
+        android:hint="Nama Mahasiswa"
+        android:inputType="text" />
+
+    <!-- EditText untuk Email Mahasiswa -->
+    <EditText
+        android:id="@+id/editTextEmailMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNamaMahasiswa"
+        android:layout_marginTop="16dp"
+        android:hint="Email Mahasiswa"
+        android:inputType="textEmailAddress" />
+
+    <!-- EditText untuk NIM -->
+    <EditText
+        android:id="@+id/editTextNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmailMahasiswa"
+        android:layout_marginTop="16dp"
+        android:hint="NIM"
+        android:inputType="text" />
+
+    <!-- EditText untuk Judul Tugas Akhir -->
+    <EditText
+        android:id="@+id/editTextJudulTugasAkhir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNim"
+        android:layout_marginTop="16dp"
+        android:hint="Judul Tugas Akhir"
+        android:inputType="text" />
+
+    <!-- EditText untuk Jenis Pendaftaran -->
+    <EditText
+        android:id="@+id/editTextJenisPendaftaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextJudulTugasAkhir"
+        android:layout_marginTop="16dp"
+        android:hint="Jenis Pendaftaran" />
+
+    <!-- EditText untuk Kategori Tugas Akhir -->
+    <EditText
+        android:id="@+id/editTextKategoriTugasAkhir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextJenisPendaftaran"
+        android:layout_marginTop="16dp"
+        android:hint="Kategori Tugas Akhir" />
+
+    <!-- EditText untuk Calon Dosen Pembimbing 1 -->
+    <EditText
+        android:id="@+id/editTextDosenPembimbing1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextKategoriTugasAkhir"
+        android:layout_marginTop="16dp"
+        android:hint="Calon Dosen Pembimbing 1" />
+
+    <!-- EditText untuk Calon Dosen Pembimbing 2 -->
+    <EditText
+        android:id="@+id/editTextDosenPembimbing2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDosenPembimbing1"
+        android:layout_marginTop="16dp"
+        android:hint="Calon Dosen Pembimbing 2" />
+
+    <!-- Button untuk memilih file -->
+    <Button
+        android:id="@+id/buttonChooseFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDosenPembimbing2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Pilih Berkas" />
+
+    <!-- Tombol Kirim dan Batal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonChooseFile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="Kirim" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="Batal" />
+    </LinearLayout>
+</RelativeLayout>

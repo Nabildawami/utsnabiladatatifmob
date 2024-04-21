@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/home"
+        android:title="@string/menu_home"
+        />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/menu_daftar"
+        android:icon="@drawable/baseline_mode_edit_24"
+        android:id="@+id/daftar"
+        />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/menu_dosen"
+        android:icon="@drawable/baseline_3p_24"
+        android:id="@+id/dosen"
+        />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/menu_status"
+        android:icon="@drawable/baseline_archive_24"
+        android:id="@+id/status"
+        />
+</menu>

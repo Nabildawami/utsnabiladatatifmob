@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".homepage">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/adat">
+
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/white"
+            android:text="ADATATIF"
+            android:textSize="25sp" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomvieww"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="@color/white"
+            app:itemIconTint="@color/adat"
+            app:itemTextAppearanceActive="@style/BottomNavigationView.Active"
+            app:itemTextColor="@color/white"
+            app:menu="@menu/top_navmenu" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navmenu"
+        android:background="@color/adat"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"/>
+
+</LinearLayout>

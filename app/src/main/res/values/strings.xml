@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">utsnabiladatatif</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_daftar">Daftar</string>
+    <string name="menu_dosen">Dosen</string>
+    <string name="menu_status">Status</string>
+
+    <string name="menu_account">Mahasiswa</string>
+    <string name="tabel_tanggal">Tanggal</string>
+    <string name="tabel_judul">Judul</string>
+    <string name="tabel_status">Status</string>
+    <string name="tabel_aksi">Aksi</string>
+
+    <string name="dosen_nama">Nama Dosen</string>
+    <string name="dosen_kelamin">Jenis Kelamin</string>
+    <string name="dosen_keahlian">Keahlian</string>
+    <string name="dosen_kuota">Kuota</string>
+
+    <string name="isi_tanggal">17 april 2023</string>
+    <string name="isi_judul">Adatatif apps</string>
+    <string name="isi_status">Ditolak</string>
+
+
+    <string name="isi2_tanggal">20 april 2023</string>
+    <string name="isi2_judul">Adatatif web</string>
+    <string name="isi2_status">Menunggu</string>
+
+    <string name="isi3_tanggal">31 april 2023</string>
+    <string name="isi3_judul">Web responsif</string>
+    <string name="isi3_status">Berhasil</string>
+
+    <string name="tabel_detail">Lihat</string>
+
+
+    <string name="okegass">asu</string>
+    <string name="okegas">dosen1</string>
+    <string name="okegas1">L</string>
+    <string name="okegas2">database</string>
+    <string name="okegas3">10</string>
+    <string name="gas">dosen2</string>
+    <string name="gas1">L</string>
+    <string name="gas2">CYBER</string>
+    <string name="gas3">30</string>
+    <string name="bisa">dosen3</string>
+    <string name="bisa1">P</string>
+    <string name="bisa2">OOP</string>
+    <string name="bisa3">2</string>
+    <string name="judul_spinner_pendaftaran_1">Jenis Pendaftaran</string>
+    <string name="judul_spinner_pendaftaran_2">Kategori Tugas Akhir</string>
+    <string name="judul_spinner_pendaftaran_3">Calon Dosen Pembimbing 1</string>
+    <string name="judul_spinner_pendaftaran_4">Calon Dosen Pembimbing 2</string>
+    <string name="p1">Nama Mahasiswa</string>
+    <string name="p2">Nim Mahasiswa</string>
+    <string name="p3">Judul Tugas Akhir</string>
+    <string name="p4">Status Berkas</string>
+    <string name="p5">Kategori TA</string>
+    <string name="p6">Jenis TA</string>
+    <string name="p7">Dosen Pembimbing1</string>
+    <string name="p8">Dosen Pembimbing2</string>
+    <string name="p9">Dosen Penguji1</string>
+    <string name="p10">Dosen Penguji2</string>
+    <string name="p11">Jenis Kelamin</string>
+    <string name="p12">Catatan Revisi</string>
+    <string name="isi1">= M.NABIL DAWAMI</string>
+    <string name="isi2">= 12250111527</string>
+    <string name="isi3">= Laki-Laki</string>
+    <string name="isi4">= Adatatif apps</string>
+    <string name="isi5">= Diterima</string>
+    <string name="isi55">= Menunggu</string>
+    <string name="isi555">= Ditolak</string>
+    <string name="isi6">= Laporan</string>
+    <string name="isi7">= Individu</string>
+    <string name="isi8">= Megawati,S.Hut</string>
+    <string name="isi9">= obito,S.Kom</string>
+    <string name="isi10">= watasiwa,M.T</string>
+    <string name="isi11">= Dr.Unloked,M.T,Phd</string>
+    <string name="isi12">= RIncaian di daftar pustaka adalah duplikat</string>
+
+
+
+    <string name="profil">ADATATIF
+(Aplikasi Pendaftaran Tugas Akhir Teknik Informatika)
+Merupakan aplikasi pembenahan pengelolaan
+adminstrasi yang mengedepankan integrasi dan
+digitalisasi</string>
+
+</resources>

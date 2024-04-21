@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarFragment">
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="DATA PENDAFTARAN"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="500dp"
+        android:text="Daftar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="495dp"
+        android:layout_marginTop="100dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="384dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/green">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="4"
+                    android:paddingLeft="10sp"
+                    android:text="@string/tabel_tanggal"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="4"
+                    android:paddingLeft="10sp"
+                    android:text="@string/tabel_judul"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="4"
+                    android:paddingLeft="10sp"
+                    android:text="@string/tabel_status"
+                    android:textColor="@color/white" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="4"
+                    android:paddingLeft="10sp"
+                    android:text="@string/isi_tanggal"></TextView>
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="4"
+                    android:paddingLeft="10sp"
+                    android:text="@string/isi_judul" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="4"
+                    android:paddingLeft="10sp"
+                    android:text="@string/isi_status" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="4"
+                    android:paddingLeft="10sp"
+                    android:text="@string/isi2_tanggal"></TextView>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="4"
+                    android:paddingLeft="10sp"
+                    android:text="@string/isi2_judul" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="4"
+                    android:paddingLeft="10sp"
+                    android:text="@string/isi2_status" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="4"
+                    android:paddingLeft="10sp"
+                    android:text="@string/isi3_tanggal"></TextView>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="4"
+                    android:paddingLeft="10sp"
+                    android:text="@string/isi3_judul" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="4"
+                    android:paddingLeft="10sp"
+                    android:text="@string/isi3_status" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </FrameLayout>
+
+</FrameLayout>
